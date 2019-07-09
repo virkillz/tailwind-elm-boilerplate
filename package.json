@@ -1,0 +1,18 @@
+{
+  "name": "relearn",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "refresh": "npx tailwind build src/input.css -o src/main.css",
+    "start": "elm-app start"
+  },
+  "author": "virkillz",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.0.4"
+  }
+}
